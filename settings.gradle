@@ -1,1 +1,9 @@
 rootProject.name = 'ecommerce-capestone'
+
+include 'catalog-common'
+include 'catalog-service'
+include 'config-server'
+include 'eureka-server'
+include 'inventory-service'
+include 'product-service'
+include 'spring-cloud-gateway'
