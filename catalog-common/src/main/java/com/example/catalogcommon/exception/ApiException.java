@@ -1,4 +1,4 @@
-package com.example.catalogservice.exception;
+package com.example.catalogcommon.exception;
 
 public class ApiException extends RuntimeException {
 

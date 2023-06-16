@@ -1,8 +1,8 @@
 package com.example.catalogservice.service.impl;
 
+import com.example.catalogcommon.exception.ApiException;
 import com.example.catalogservice.domain.dto.ProductDTO;
 import com.example.catalogservice.domain.mapper.ProductMapper;
-import com.example.catalogservice.exception.ApiException;
 import com.example.catalogservice.repository.ProductRepository;
 import com.example.catalogservice.service.ProductService;
 import lombok.RequiredArgsConstructor;

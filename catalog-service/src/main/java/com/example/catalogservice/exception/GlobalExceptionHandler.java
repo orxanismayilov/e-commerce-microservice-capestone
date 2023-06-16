@@ -1,5 +1,6 @@
 package com.example.catalogservice.exception;
 
+import com.example.catalogcommon.exception.ApiException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

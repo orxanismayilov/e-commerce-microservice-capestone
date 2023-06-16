@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "${feign.inventory-service}" )
+@FeignClient(name = "${feign.catalog-service}" )
 public interface CatalogServiceClient {
 
-    @GetMapping("/sku/{sku}")
+    @GetMapping("/catalog/sku/{sku}")
     ResponseEntity<List<ProductDTO>> getProductsBySKU(@PathVariable String sku, Pageable pageable);
 
-    @GetMapping("/{uniqId}")
+    @GetMapping("/catalog/{uniqId}")
     ResponseEntity<ProductDTO> getProductById(@PathVariable String uniqId);
 }
