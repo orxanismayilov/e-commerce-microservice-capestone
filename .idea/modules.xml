@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-common/ecommerce-capestone.catalog-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-common/ecommerce-capestone.catalog-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-service/ecommerce-capestone.catalog-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-service/ecommerce-capestone.catalog-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service/ecommerce-capestone.inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service/ecommerce-capestone.inventory-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/ecommerce-capestone.product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/ecommerce-capestone.product-service.main.iml" />
     </modules>
   </component>
 </project>
