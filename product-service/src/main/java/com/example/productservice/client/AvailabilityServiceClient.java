@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(name = "${feign.inventory-service}" )
+@FeignClient(name = "${feign.inventory-service}",fallback = AvailabilityServiceFallback.class)
 public interface AvailabilityServiceClient {
 
     @GetMapping("/availability")
